@@ -16,7 +16,7 @@ document.querySelector('#hide-nav button').addEventListener('click', function(){
 // this refuses to toggle, though I'm not sure why.
 
 // TASK 2 -- Select an Icon
-document.querySelector('#select-items option').addEventListener('click', function(){
+document.querySelector('#select-items .option').addEventListener('click', function(){
   var option = document.querySelectorAll('.option')
   console.log(option.classList)
   if (option.classList.contains('selected') = false){
@@ -40,7 +40,7 @@ document.querySelectorAll('#add-vals button').addEventListener('click', function
 
 // TASK 4 -- Add Guest to List
 document.querySelectorAll('#list-2-list li').addEventListener('click', function(){
-  
+
 })
 
 
